@@ -8,5 +8,8 @@
   },
   "author": "",
   "license": "ISC",
-  "public": true
+  "public": true,
+  "publishConfig": {
+    "access": "public"
+  }
 }
