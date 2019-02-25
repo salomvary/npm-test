@@ -1,5 +1,9 @@
 language: node_js
 node_js:
-  - "8.10.0"
+- 8.10.0
 deploy:
   tag: next
+  provider: npm
+  email: salomvary@gmail.com
+  api_key:
+    secure: q6v6doXC9+UcBwIk+iTUPPm/QsE8Df/XWNEbJpmlIJzoIQmFNKanqVY1heHi86gvMg3/tOnT0trAB8bAvilhLQgi36gP/0KOhybNhiTzHALGflmZNSN4ZHTLQwrV8k/g3KBolUHdqC5S94CkEddmq8Ogu6Dp4KFIJQI0tNQ3wGwX9VKncP0Cip5DqJWdPUFLPXrB61TJCmgpC3aSmJF59ieQfI/OaRbTxM1e4vKUzdeG3thVpuNCbOdTeBpBmzYot9wYSYpCfHneT6a3FMmN0SHQJZd6EMhJ8S3HfEk05m7BHqBeROFLbPebqNqK+WcAoxXNJlwZVMrAxZ32v4jtF9NTiW35dbONekHO2zPFtLV0ueI/LgGXRqk/3VdE7AY1YPhZ4ObvAeMgB6Tc8LRVISOdKH+b5vrN/YW0twNbu6nIAifNIk1MKHoPUTFNpAwxYbvyswDV0pRL7B2Y+TSFPUVO7AUS9BeEQXx+vdmFAaTAnnjdrI624q8q0h+yi3EwZ/h4A5b7EhjtybX/49FWicFR0muAkmXCZrJ3S/Au3XWZy+SLFryrLVe4fqNUMZGnPDalQnWucXJub6Z2B+oAF4PajBPhw87cEHLmpNawupIwlgCTwJafKjzg/HIwarnu0fHauT1bOtzSf6QdinQ063fwerYQaO+DGg5KCtPmAXY=
